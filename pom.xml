@@ -31,6 +31,19 @@
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
     </site>
+           
+           <repository>
+	      <id>nexus</id>
+	      <name>First Repos by Abdul</name>
+	      <url>http://3.86.24.147:8081/repository/Hello_World_Releases/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>2nd Repos by Abdul Repository </name>
+	      <url>http://3.86.24.147:8081/repository/Hello_World_Snapshots/</url>
+	    </snapshotRepository>
+           
   </distributionManagement>
 
   <build>
