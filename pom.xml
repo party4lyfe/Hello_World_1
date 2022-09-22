@@ -41,7 +41,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>2nd Repos by Abdul Repository </name>
-	      <url>http://3.86.24.147:8081/repository/Hello_World_Snapshots/</url>
+	      <url>http://44.202.242.192:8081/repository/Hello_World_Snapshots/</url>
 	    </snapshotRepository>
            
   </distributionManagement>
