@@ -11,7 +11,11 @@
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
 
-  <properties>
+  <properties>   
+     <sonar.host.url>http://44.210.139.65:9000/</sonar.host.url>
+     <sonar.login>admin</sonar.login>         
+     <sonar.password>admin</sonar.password>         
+           
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
