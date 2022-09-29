@@ -26,7 +26,21 @@
   </modules>
 
   <distributionManagement>
-    <site>
+   
+      
+            <repository>     
+                 <id>nexus</id>          
+                 <name>Paul-Pro-Release</name>
+                 <url>http://44.201.185,145:8081/repository/Paul-Pro-Release/</url>       
+          </repository> 
+           
+          <snapshotRepository>  
+               <id>nexus</id>        
+               <name>Paul-Pro-Snapshort</name>           
+               <url>http://44.201.185.145:8081/repository/Paul-Pro-Snapshot/</url> 
+          </snapshotRepository>                  
+
+      <site>
       <id>site-server</id>
       <name>Test Project Site</name>
       <url>file:///tmp/maven-project-site</url>
